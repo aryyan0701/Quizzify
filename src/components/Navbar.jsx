@@ -9,7 +9,7 @@ function Navbar() {
     Quizzify
     </div>
     <div>
-      
+      input
     </div>
    </div>
   );
