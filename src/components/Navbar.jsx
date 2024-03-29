@@ -6,7 +6,7 @@ function Navbar() {
       <div className="text-4xl font-bold text-white">Quizzify</div>
       <div>
         <input
-          className="rounded border border-gray-600 py-1 px-2"
+          className="rounded hidden lg:block border border-gray-600 py-1 px-2"
           type="text"
           placeholder="Search"
         />

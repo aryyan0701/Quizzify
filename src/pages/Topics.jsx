@@ -19,7 +19,7 @@ const CommonContent = () => {
 
       <h1 className="text-center text-5xl font-bold mb-4">Topics</h1>
       <div className={Container}>
-        <div className="flex justify-center">
+        <div className="flex flex-wrap justify-center sm:justify-center">
         {/* first col */}
         <div className="flex flex-col m-4 text-center w-60">
             <div className="bg-white shadow-md rounded-lg p-4">
@@ -78,25 +78,6 @@ const CommonContent = () => {
           </div>
      {/* end */}
         {/* fourth col */}
-          <div className="flex flex-col m-4 text-center w-60">
-            <div className="bg-white shadow-md rounded-lg p-4">
-            <Link to="/topics/css" className={TopicLink}>
-                <h4>Css</h4>
-              </Link>
-            </div>
-            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
-            <Link to="/topics/css" className={TopicLink}>
-                <h4>Css</h4>
-              </Link>
-            </div>
-            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
-            <Link to="/topics/css" className={TopicLink}>
-                <h4>Css</h4>
-              </Link>
-            </div>
-          </div>
-          {/* end */}
-        {/* fifth col */}
           <div className="flex flex-col m-4 text-center w-60">
             <div className="bg-white shadow-md rounded-lg p-4">
             <Link to="/topics/css" className={TopicLink}>
