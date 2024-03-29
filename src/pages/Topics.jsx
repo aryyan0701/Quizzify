@@ -20,6 +20,26 @@ const CommonContent = () => {
       <h1 className="text-center text-5xl font-bold mb-4">Topics</h1>
       <div className={Container}>
         <div className="flex justify-center">
+        {/* first col */}
+        <div className="flex flex-col m-4 text-center w-60">
+            <div className="bg-white shadow-md rounded-lg p-4">
+              <Link to="/topics/javascript" className={TopicLink}>
+                <h4>Javascript</h4>
+              </Link>
+            </div>
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <Link to="/topics/javascript" className={TopicLink}>
+                <h4>Javascript</h4>
+              </Link>
+            </div>
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <Link to="/topics/javascript" className={TopicLink}>
+                <h4>Javascript</h4>
+              </Link>
+            </div>
+          </div>
+        {/* end */}
+        {/* two col */}
           <div className="flex flex-col m-4 text-center w-60">
             <div className="bg-white shadow-md rounded-lg p-4">
               <Link to="/topics/javascript" className={TopicLink}>
@@ -27,10 +47,18 @@ const CommonContent = () => {
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4">
-          
+            <Link to="/topics/javascript" className={TopicLink}>
+                <h4>Javascript</h4>
+              </Link>
+            </div>
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <Link to="/topics/javascript" className={TopicLink}>
+                <h4>Javascript</h4>
+              </Link>
             </div>
           </div>
-
+              {/* end */}
+        {/* third col */}
           <div className="flex flex-col m-4 text-center w-60">
             <div className="bg-white shadow-md rounded-lg p-4">
               <Link to="/topics/python" className={TopicLink}>
@@ -38,10 +66,18 @@ const CommonContent = () => {
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4">
-              {/* Content for card 4 */}
+            <Link to="/topics/python" className={TopicLink}>
+                <h4>Python</h4>
+              </Link>
+            </div>
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <Link to="/topics/python" className={TopicLink}>
+                <h4>Python</h4>
+              </Link>
             </div>
           </div>
-
+     {/* end */}
+        {/* fourth col */}
           <div className="flex flex-col m-4 text-center w-60">
             <div className="bg-white shadow-md rounded-lg p-4">
             <Link to="/topics/css" className={TopicLink}>
@@ -49,9 +85,36 @@ const CommonContent = () => {
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4">
-              {/* Content for card 6 */}
+            <Link to="/topics/css" className={TopicLink}>
+                <h4>Css</h4>
+              </Link>
+            </div>
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <Link to="/topics/css" className={TopicLink}>
+                <h4>Css</h4>
+              </Link>
             </div>
           </div>
+          {/* end */}
+        {/* fifth col */}
+          <div className="flex flex-col m-4 text-center w-60">
+            <div className="bg-white shadow-md rounded-lg p-4">
+            <Link to="/topics/css" className={TopicLink}>
+                <h4>Css</h4>
+              </Link>
+            </div>
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <Link to="/topics/css" className={TopicLink}>
+                <h4>Css</h4>
+              </Link>
+            </div>
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <Link to="/topics/css" className={TopicLink}>
+                <h4>Css</h4>
+              </Link>
+            </div>
+          </div>
+          {/* end */}
         </div>
       </div>
       <Outlet />
