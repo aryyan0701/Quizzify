@@ -4,7 +4,7 @@ import Javascript from "./Javascript";
 import Python from "./Python";
 import Css from "./Css";
 
-const Container = "flex flex-wrap justify-around p-5";
+const Container = "flex flex-wrap justify-around p-5 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white";
 const TopicLink =
   "text-decoration-none transition duration-300 ease-in-out text-xl m-2";
 
