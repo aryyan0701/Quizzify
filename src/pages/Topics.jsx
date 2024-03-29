@@ -11,7 +11,7 @@ const TopicLink =
 const CommonContent = () => {
   return (
     <div className="bg-violet-200 text-violet min-h-screen">
-      <Link to="/" className="block mb-4">
+      <Link to="/" className="block">
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold m-3 py-2 px-4 rounded">
           Back
         </button>
@@ -22,17 +22,17 @@ const CommonContent = () => {
         <div className="flex flex-wrap justify-center sm:justify-center">
         {/* first col */}
         <div className="flex flex-col m-4 text-center w-60">
-            <div className="bg-white shadow-md rounded-lg p-4">
+            <div className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
               <Link to="/topics/javascript" className={TopicLink}>
                 <h4>Javascript</h4>
               </Link>
             </div>
-            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
             <Link to="/topics/javascript" className={TopicLink}>
                 <h4>Javascript</h4>
               </Link>
             </div>
-            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
             <Link to="/topics/javascript" className={TopicLink}>
                 <h4>Javascript</h4>
               </Link>
@@ -41,17 +41,17 @@ const CommonContent = () => {
         {/* end */}
         {/* two col */}
           <div className="flex flex-col m-4 text-center w-60">
-            <div className="bg-white shadow-md rounded-lg p-4">
+            <div className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
               <Link to="/topics/javascript" className={TopicLink}>
                 <h4>Javascript</h4>
               </Link>
             </div>
-            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
             <Link to="/topics/javascript" className={TopicLink}>
                 <h4>Javascript</h4>
               </Link>
             </div>
-            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
             <Link to="/topics/javascript" className={TopicLink}>
                 <h4>Javascript</h4>
               </Link>
@@ -60,17 +60,17 @@ const CommonContent = () => {
               {/* end */}
         {/* third col */}
           <div className="flex flex-col m-4 text-center w-60">
-            <div className="bg-white shadow-md rounded-lg p-4">
+            <div className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
               <Link to="/topics/python" className={TopicLink}>
                 <h4>Python</h4>
               </Link>
             </div>
-            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
             <Link to="/topics/python" className={TopicLink}>
                 <h4>Python</h4>
               </Link>
             </div>
-            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
             <Link to="/topics/python" className={TopicLink}>
                 <h4>Python</h4>
               </Link>
@@ -79,17 +79,17 @@ const CommonContent = () => {
      {/* end */}
         {/* fourth col */}
           <div className="flex flex-col m-4 text-center w-60">
-            <div className="bg-white shadow-md rounded-lg p-4">
+            <div className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
             <Link to="/topics/css" className={TopicLink}>
                 <h4>Css</h4>
               </Link>
             </div>
-            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
             <Link to="/topics/css" className={TopicLink}>
                 <h4>Css</h4>
               </Link>
             </div>
-            <div className="bg-white shadow-md rounded-lg p-4 mt-4">
+            <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
             <Link to="/topics/css" className={TopicLink}>
                 <h4>Css</h4>
               </Link>
