@@ -1,9 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import AboutModal from "../modal/AboutModal";
 
 function Navbar() {
+  const [isAboutModalOpen, setAboutModalOpen] = useState(false);
+
+  const openAboutModal = () => {
+    setAboutModalOpen(true);
+  };
+
+  const closeAboutModal = () => {
+    setAboutModalOpen(false);
+  };
+
   return (
+    <>
     <div className="bg-blue-950 p-4 flex justify-between items-center">
       <div className="text-4xl font-bold text-white">Quizzify</div>
       <div className="flex justify-between items-center">
@@ -13,9 +25,11 @@ function Navbar() {
           placeholder="Search"
         />
         <FontAwesomeIcon className="text-2xl me-4 cursor-pointer" icon={faMagnifyingGlass} />
-        <strong className="text-2xl text-white cursor-pointer">About</strong>
+        <strong onClick={openAboutModal} className="text-2xl text-white cursor-pointer">About</strong>
       </div>
     </div>
+    <AboutModal isOpen={isAboutModalOpen} onClose={closeAboutModal}/>
+    </>
   );
 }
 
