@@ -12,8 +12,6 @@ function Home() {
           Challenge yourself and test your knowledge
         </h2>
         <h3 className="text-xl mb-8">Explore the Topics</h3>
-     
-     
         <Link to="/topics">
           <button className="bg-blue-950 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300">
             Start Here
