@@ -31,13 +31,13 @@ const Javascript = () => {
             <div>
                 {currentQuestionIndex < javascriptQuestions.length ? (
                     <>
-                        <p className="text-xl font-bold">
+                        <p className="text-2xl font-bold text-right px-4">
                             Correct Answers: <span>{correctAnswers}</span> /{' '}
                             {javascriptQuestions.length}
                         </p>
 
                         <div>
-                            <p className="text-xl font-bold">
+                            <p className="text-2xl font-bold">
                                 Question: {currentQuestionIndex + 1}
                             </p>
                             <ShowjavascriptQue

@@ -3,7 +3,7 @@ import React from "react";
 const ShowjavascriptQue = ({ question, options, answerQuestion }) => {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <div className="max-w-lg p-6 bg-violet-200 rounded-lg shadow-lg"> {/* Adjusted max-width and padding */}
+      <div className="max-w-lg p-6 bg-violet-200 rounded-lg shadow-lg"> 
         <p className="text-xl font-bold mb-4">{question}</p>
         <ul>
           {options.map((option, index) => (
