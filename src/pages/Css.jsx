@@ -54,6 +54,11 @@ const Css = () => {
                 <p className="text-6xl font-bold">
                     <span>{correctAnswers}</span> / {cssQuestions.length}
                 </p>
+                        <Link to="/topics">
+                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded mt-8">
+                         Reset
+                        </button>
+                         </Link>
             </div>
         )}
     </div>
