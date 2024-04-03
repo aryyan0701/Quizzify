@@ -103,16 +103,17 @@ const CommonContent = () => {
   );
 };
 
+
 const Topics = () => {
   return (
-    <>
+    <div>
       <Routes>
         <Route path="/" element={<CommonContent />} />
         <Route path="javascript/*" element={<Javascript />} />
         <Route path="python/*" element={<Python />} />
         <Route path="css/*" element={<Css />} />
       </Routes>
-    </>
+    </div>
   );
 };
 

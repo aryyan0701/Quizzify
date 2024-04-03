@@ -1,3 +1,4 @@
+// Javascript.jsx
 import React, { useState } from 'react';
 import ShowjavascriptQue from '../components/JavascriptQue';
 import { javascriptQuestions } from '../data/Ques';
@@ -21,13 +22,13 @@ const Javascript = () => {
     }
 
     return (
-        <div className="container mx-auto mt-8">
+        <div className="container"> 
             <Link to="/topics">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     Back
                 </button>
             </Link>
-            <div className="mt-8">
+            <div>
                 {currentQuestionIndex < javascriptQuestions.length ? (
                     <>
                         <p className="text-xl font-bold">
@@ -35,7 +36,7 @@ const Javascript = () => {
                             {javascriptQuestions.length}
                         </p>
 
-                        <div className="mt-4">
+                        <div>
                             <p className="text-xl font-bold">
                                 Question: {currentQuestionIndex + 1}
                             </p>
