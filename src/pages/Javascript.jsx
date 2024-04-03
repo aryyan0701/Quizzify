@@ -47,7 +47,7 @@ const Javascript = () => {
                         </div>
                     </>
                 ) : (
-                    <div className="mt-24 text-center">
+                    <div className="mt-36 text-center">
                         <h3 className="text-2xl font-bold">Final Score</h3>
                         <p className="text-6xl font-bold">
                             <span>{correctAnswers}</span> / {javascriptQuestions.length}
