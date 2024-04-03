@@ -31,7 +31,7 @@ const Javascript = () => {
             <div>
                 {currentQuestionIndex < javascriptQuestions.length ? (
                     <>
-                        <p className="text-2xl font-bold text-right px-4">
+                        <p className="text-2xl font-bold mt-4 md:mt-0 md:text-right md:px-4">
                             Correct Answers: <span>{correctAnswers}</span> /{' '}
                             {javascriptQuestions.length}
                         </p>
