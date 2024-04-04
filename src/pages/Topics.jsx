@@ -3,6 +3,7 @@ import { Link, Routes, Route, Outlet } from "react-router-dom";
 import Javascript from "./Javascript";
 import Python from "./Python";
 import Css from "./Css";
+import ReactJs from "./React";
 
 const Container = "flex flex-wrap justify-around p-5";
 const TopicLink =
@@ -47,8 +48,8 @@ const CommonContent = () => {
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-            <Link to="/topics/javascript" className={TopicLink}>
-                <h4>Javascript</h4>
+            <Link to="/topics/react" className={TopicLink}>
+                <h4>React Js</h4>
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
@@ -112,6 +113,7 @@ const Topics = () => {
         <Route path="javascript/*" element={<Javascript />} />
         <Route path="python/*" element={<Python />} />
         <Route path="css/*" element={<Css />} />
+        <Route path="react/*" element={<ReactJs />} />
       </Routes>
     </div>
   );

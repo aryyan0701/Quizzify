@@ -259,6 +259,59 @@ export const javascriptQuestions = [
     },
   ]
   
+  export const reactQuestions = [
+    {
+      question:
+        "What is React.js?",
+      questionDescription:
+        "React.js is a JavaScript library for building user interfaces.",
+      options: ["A JavaScript library for building user interfaces.", "A backend framework for Node.js.", "A database management system.", "A CSS preprocessor."],
+      answer: [0],
+      explanation:
+        "React.js is a JavaScript library for building user interfaces, making option A the correct answer.",
+    },
+    {
+      question:
+        "What does JSX stand for?",
+      questionDescription:
+        "JSX is a syntax extension for JavaScript often used with React.",
+      options: ["JavaScript XML", "JavaScript Extension", "JavaScript Syntax eXtension", "JavaScript XML Syntax"],
+      answer: [0],
+      explanation:
+        "JSX stands for JavaScript XML, which is a syntax extension for JavaScript used with React.",
+    },
+    {
+      question:
+        "What function is used to render a React component to the DOM?",
+      questionDescription:
+        "This function is typically called once in a React application.",
+      options: ["ReactDOM.render()", "React.renderComponent()", "Component.render()", "ReactDOM.component()"],
+      answer: [0],
+      explanation:
+        "The function `ReactDOM.render()` is used to render a React component to the DOM.",
+    },
+    {
+      question:
+        "What is the purpose of props in React components?",
+      questionDescription:
+        "Props are often used to pass data from parent to child components.",
+      options: ["To manage component state.", "To handle component rendering.", "To define component structure.", "To pass data from parent to child components."],
+      answer: [3],
+      explanation:
+        "Props in React components are used to pass data from parent to child components.",
+    },
+    {
+      question:
+        "What is the purpose of state in React components?",
+      questionDescription:
+        "State is used to manage component-specific data.",
+      options: ["To define component structure.", "To pass data from parent to child components.", "To manage component state.", "To handle component rendering."],
+      answer: [2],
+      explanation:
+        "State in React components is used to manage component-specific data and trigger re-renders when the state changes.",
+    }
+  ];
+  
 
   
   
