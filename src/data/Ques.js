@@ -313,5 +313,219 @@ export const javascriptQuestions = [
   ];
   
 
+  export const angularQuestions = [
+    {
+      question:
+        "What is Angular?",
+      questionDescription:
+        "Angular is a popular framework for building single-page web applications.",
+      options: ["A front-end framework", "A server-side language", "A database management system", "A version control system"],
+      answer: [0],
+      explanation:
+        "Angular is a front-end framework for building single-page web applications.",
+    },
+    {
+      question:
+        "What is a component in Angular?",
+      questionDescription:
+        "Components are the basic building blocks of Angular applications.",
+      options: ["A service", "A directive", "A routing module", "A basic building block of Angular applications"],
+      answer: [3],
+      explanation:
+        "A component is a basic building block of Angular applications.",
+    },
+    {
+      question:
+        "What is the purpose of NgModule in Angular?",
+      questionDescription:
+        "NgModule is a decorator used in Angular applications.",
+      options: ["To define an Angular component", "To configure the injector", "To define an Angular module", "To handle HTTP requests"],
+      answer: [2],
+      explanation:
+        "NgModule is used to define an Angular module, which is a cohesive block of code dedicated to an application domain, a workflow, or a closely related set of capabilities.",
+    },
+    {
+      question:
+        "What is Angular CLI?",
+      questionDescription:
+        "Angular CLI is a command-line interface for Angular development.",
+      options: ["A module loader", "A version control system", "A command-line interface for Angular development", "An authentication mechanism"],
+      answer: [2],
+      explanation:
+        "Angular CLI is a command-line interface for Angular development, providing utilities for initializing, developing, scaffolding, and maintaining Angular applications.",
+    },
+    {
+      question:
+        "What is data binding in Angular?",
+      questionDescription:
+        "Data binding is a core concept in Angular applications.",
+      options: ["A way to manipulate the DOM", "A mechanism for handling events", "A process of binding data between a component's template and its class", "A method for styling components"],
+      answer: [2],
+      explanation:
+        "Data binding in Angular is the process of binding data between a component's template and its class, allowing changes in the application state to be reflected in the user interface and vice versa.",
+    }
+  ];
+
+  
+  export const cQuestions = [
+    {
+      question:
+        "What is C?",
+      questionDescription:
+        "C is a general-purpose, procedural programming language.",
+      options: ["A markup language", "A scripting language", "A programming language", "A database management system"],
+      answer: [2],
+      explanation:
+        "C is a programming language known for its efficiency, flexibility, and portability.",
+    },
+    {
+      question:
+        "What is the purpose of '#include <stdio.h>' in C?",
+      questionDescription:
+        "This is a common header file used in C programs.",
+      options: ["To define standard input/output functions", "To define mathematical functions", "To include user-defined functions", "To include header files for string manipulation"],
+      answer: [0],
+      explanation:
+        "'#include <stdio.h>' is used to include the standard input/output library in C programs, providing functions like printf() and scanf().",
+    },
+    {
+      question:
+        "What is the result of 10 % 3 in C?",
+      questionDescription:
+        "This operation calculates the remainder of division.",
+      options: ["0", "1", "2", "3"],
+      answer: [1],
+      explanation:
+        "The result of 10 % 3 in C is 1, as it calculates the remainder of dividing 10 by 3.",
+    },
+    {
+      question:
+        "What is the purpose of 'void' in a function declaration in C?",
+      questionDescription:
+        "This keyword indicates the return type of the function.",
+      options: ["To specify that the function takes no arguments", "To specify that the function returns no value", "To specify that the function returns an integer", "To specify that the function returns a character"],
+      answer: [1],
+      explanation:
+        "In C, 'void' in a function declaration indicates that the function returns no value.",
+    },
+    {
+      question:
+        "Which of the following is not a valid data type in C?",
+      questionDescription:
+        "C supports various data types for different kinds of values.",
+      options: ["float", "boolean", "char", "double"],
+      answer: [1],
+      explanation:
+        "C does not have a built-in boolean data type. Instead, integers are commonly used for boolean values (0 for false, non-zero for true).",
+    }
+  ];
+
+  export const cppQuestions = [
+    {
+      question:
+        "What is C++?",
+      questionDescription:
+        "C++ is a general-purpose programming language based on C.",
+      options: ["A markup language", "A scripting language", "A programming language", "A database management system"],
+      answer: [2],
+      explanation:
+        "C++ is a programming language that extends the capabilities of C with features like classes and inheritance.",
+    },
+    {
+      question:
+        "What is the purpose of 'new' in C++?",
+      questionDescription:
+        "'new' is a keyword used for dynamic memory allocation.",
+      options: ["To create a new object", "To allocate memory for a new object", "To delete an object", "To declare a new variable"],
+      answer: [1],
+      explanation:
+        "In C++, 'new' is used to allocate memory for a new object on the heap.",
+    },
+    {
+      question:
+        "What is the output of the following C++ code snippet?\n```cpp\nint x = 5;\nint y = 2;\nstd::cout << x / y;\n```",
+      questionDescription:
+        "This code snippet performs integer division.",
+      options: ["2", "2.5", "2.0", "Compiler Error"],
+      answer: [0],
+      explanation:
+        "The result of integer division 5 / 2 is 2 in C++, so the output is 2.",
+    },
+    {
+      question:
+        "What is the purpose of 'using namespace std;' in C++?",
+      questionDescription:
+        "This statement is commonly used in C++ programs.",
+      options: ["To import standard input/output functions", "To avoid namespace conflicts", "To define mathematical functions", "To include header files for string manipulation"],
+      answer: [1],
+      explanation:
+        "'using namespace std;' is used in C++ to avoid specifying the namespace 'std::' before standard library functions and objects.",
+    },
+    {
+      question:
+        "What is the correct way to declare a constant variable in C++?",
+      questionDescription:
+        "C++ supports constants to define values that cannot be changed.",
+      options: ["const int x = 5;", "int const x = 5;", "const x = 5;", "static int x = 5;"],
+      answer: [0],
+      explanation:
+        "The correct way to declare a constant variable in C++ is using the 'const' keyword before the data type.",
+    }
+  ];
+
+  
+  export const javaQuestions = [
+    {
+      question:
+        "What is Java?",
+      questionDescription:
+        "Java is a high-level programming language.",
+      options: ["A markup language", "A scripting language", "A programming language", "A database management system"],
+      answer: [2],
+      explanation:
+        "Java is a programming language known for its platform independence and object-oriented approach.",
+    },
+    {
+      question:
+        "What is the purpose of 'public static void main(String[] args)' in Java?",
+      questionDescription:
+        "This is the entry point of a Java program.",
+      options: ["To define standard input/output functions", "To start the execution of the program", "To define a class", "To declare mathematical functions"],
+      answer: [1],
+      explanation:
+        "'public static void main(String[] args)' is the entry point of a Java program, where execution begins.",
+    },
+    {
+      question:
+        "What is an interface in Java?",
+      questionDescription:
+        "Interfaces define a contract for classes to implement.",
+      options: ["A class that cannot be instantiated", "A collection of related classes", "A contract for classes to implement", "A data structure"],
+      answer: [2],
+      explanation:
+        "An interface in Java defines a contract for classes to implement, specifying a set of methods that must be defined by implementing classes.",
+    },
+    {
+      question:
+        "What is the purpose of 'extends' keyword in Java?",
+      questionDescription:
+        "This keyword is used for inheritance in Java.",
+      options: ["To implement an interface", "To declare a method", "To define a class", "To extend the functionality of a class"],
+      answer: [3],
+      explanation:
+        "In Java, the 'extends' keyword is used to inherit properties and behavior from another class.",
+    },
+    {
+      question:
+        "Which of the following is not a valid access modifier in Java?",
+      questionDescription:
+        "Access modifiers control the visibility of classes, methods, and variables.",
+      options: ["private", "public", "protected", "global"],
+      answer: [3],
+      explanation:
+        "'global' is not a valid access modifier in Java. Valid access modifiers include private, public, and protected.",
+    }
+  ];
+  
   
   
