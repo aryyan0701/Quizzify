@@ -16,7 +16,7 @@ function Navbar() {
           placeholder="Search"
         />
         <FontAwesomeIcon className="text-2xl me-4 cursor-pointer text-white" icon={faMagnifyingGlass} />
-        <strong className="text-2xl text-white cursor-pointer">About</strong>
+        <h3 className="text-2xl font-bold text-white cursor-pointer">About</h3>
       </div>
     </div>
     </>
