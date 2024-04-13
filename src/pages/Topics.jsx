@@ -5,6 +5,9 @@ import Python from "./Python";
 import Css from "./Css";
 import ReactJs from "./React";
 import Angular from "./Angular";
+import Java from "./Java";
+import C from "./C";
+import Cplus from "./Cplus";
 
 const Container = "flex flex-wrap justify-around p-5";
 const TopicLink =
@@ -25,8 +28,8 @@ const CommonContent = () => {
         {/* first col */}
         <div className="flex flex-col m-4 text-center w-60">
             <div className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-              <Link to="/topics/javascript" className={TopicLink}>
-                <h4>Javascript</h4>
+              <Link to="/topics/c" className={TopicLink}>
+                <h4>C Lang</h4>
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
@@ -44,8 +47,8 @@ const CommonContent = () => {
         {/* two col */}
           <div className="flex flex-col m-4 text-center w-60">
             <div className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-              <Link to="/topics/javascript" className={TopicLink}>
-                <h4>Javascript</h4>
+              <Link to="/topics/C++" className={TopicLink}>
+                <h4>C++</h4>
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
@@ -82,8 +85,8 @@ const CommonContent = () => {
         {/* fourth col */}
           <div className="flex flex-col m-4 text-center w-60">
             <div className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-            <Link to="/topics/css" className={TopicLink}>
-                <h4>Css</h4>
+            <Link to="/topics/java" className={TopicLink}>
+                <h4>Java</h4>
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
@@ -116,6 +119,10 @@ const Topics = () => {
         <Route path="css/*" element={<Css />} />
         <Route path="react/*" element={<ReactJs />} />
         <Route path="angular/*" element={<Angular />} />
+        <Route path="java/*" element={<Java />} />
+        <Route path="c/*" element={<C />} />
+        <Route path="c++/*" element={<Cplus />} />
+
       </Routes>
     </div>
   );
