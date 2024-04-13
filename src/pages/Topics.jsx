@@ -33,7 +33,7 @@ const CommonContent = () => {
         <div className="flex flex-col m-4 text-center w-60">
             <div className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
               <Link to="/topics/c" className={TopicLink}>
-                <h4>C Lang</h4>
+                <h4>C</h4>
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
