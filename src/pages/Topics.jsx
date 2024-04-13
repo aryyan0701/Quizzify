@@ -8,6 +8,10 @@ import Angular from "./Angular";
 import Java from "./Java";
 import C from "./C";
 import Cplus from "./Cplus";
+import Php from "./Php";
+import Csharpe from "./Csharpe";
+import Sql from "./Sql";
+import Api from "./Apis";
 
 const Container = "flex flex-wrap justify-around p-5";
 const TopicLink =
@@ -38,8 +42,8 @@ const CommonContent = () => {
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-            <Link to="/topics/javascript" className={TopicLink}>
-                <h4>Javascript</h4>
+            <Link to="/topics/php" className={TopicLink}>
+                <h4>PHP</h4>
               </Link>
             </div>
           </div>
@@ -57,8 +61,8 @@ const CommonContent = () => {
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-            <Link to="/topics/javascript" className={TopicLink}>
-                <h4>Javascript</h4>
+            <Link to="/topics/Csharpe" className={TopicLink}>
+                <h4>C Sharpe</h4>
               </Link>
             </div>
           </div>
@@ -76,8 +80,8 @@ const CommonContent = () => {
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-            <Link to="/topics/python" className={TopicLink}>
-                <h4>Python</h4>
+            <Link to="/topics/sql" className={TopicLink}>
+                <h4>SQL</h4>
               </Link>
             </div>
           </div>
@@ -95,8 +99,8 @@ const CommonContent = () => {
               </Link>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4 mt-4 hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-            <Link to="/topics/css" className={TopicLink}>
-                <h4>Css</h4>
+            <Link to="/topics/api" className={TopicLink}>
+                <h4>Api</h4>
               </Link>
             </div>
           </div>
@@ -122,6 +126,10 @@ const Topics = () => {
         <Route path="java/*" element={<Java />} />
         <Route path="c/*" element={<C />} />
         <Route path="c++/*" element={<Cplus />} />
+        <Route path="php/*" element={<Php />} />
+        <Route path="cSharpe/*" element={<Csharpe />} />
+        <Route path="sql/*" element={<Sql />} />
+        <Route path="api/*" element={<Api />} />
 
       </Routes>
     </div>
