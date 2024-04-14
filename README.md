@@ -1,4 +1,4 @@
-# Quizify
+# Quizzify
 
 Welcome to Quizify! This platform is dedicated to testing users' knowledge in the field of technology. Whether you're interested in programming languages, tech topics, or industry trends, Quizify offers a variety of quizzes to challenge and expand your knowledge.
 
@@ -20,16 +20,33 @@ Welcome to Quizify! This platform is dedicated to testing users' knowledge in th
 ## Quick Start
 
 ### Home Page
-![Home Page](./src/assets/homepage.png)
+![Home Page](./public/assets/home.png)
+
+### Topics Section
+![Topics Page](./public/assets/topics.png)
 
 ### Quiz Section
-![Quiz Section](./src/assets/quiz.png)
+![Quiz Section](./public/assets/ques.png)
 
 ### Scoring System
-![Scoring System](./src/assets/score.png)
+![Scoring System](./public/assets/score.png)
 
 ### Responsive Design
-![Responsive Design](./src/assets/responsive.png)
+<div style="overflow: auto; white-space: nowrap;">
+  <a target="_blank" href="https://aryankadam.hashnode.dev/react-js-beginner-to-advanced">
+    <img target="_blank" src="./public/assets/home-r.png" alt="Blogs" style="width: 24%; display: inline-block; margin-right: 1%;">
+  </a>
+  <a target="_blank" href="https://aryankadam.hashnode.dev/react-js-beginner-to-advanced-series-2">
+    <img target="_blank" src="./public/assets/topics-r.png" alt="Pages" style="width: 24%; display: inline-block; margin-right: 1%;">
+  </a>
+  <a target="_blank" href="https://aryankadam.hashnode.dev/react-js-beginner-to-advanced">
+    <img target="_blank" src="./public/assets/ques-r.png" alt="Blogs" style="width: 24%; display: inline-block; margin-right: 1%;">
+  </a>
+  <a target="_blank" href="https://aryankadam.hashnode.dev/react-js-beginner-to-advanced-series-2">
+    <img target="_blank" src="./public/assets/score-r.png" alt="Pages" style="width: 24%; display: inline-block;">
+  </a>
+</div>
+
 
 ## Getting Started
 
