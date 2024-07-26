@@ -528,4 +528,217 @@ export const javascriptQuestions = [
   ];
   
   
-  
+  export const phpQuestions= [
+    {
+      question:
+        "What is Java?",
+      questionDescription:
+        "Java is a high-level programming language.",
+      options: ["A markup language", "A scripting language", "A programming language", "A database management system"],
+      answer: [2],
+      explanation:
+        "Java is a programming language known for its platform independence and object-oriented approach.",
+    },
+    {
+      question:
+        "What is the purpose of 'public static void main(String[] args)' in Java?",
+      questionDescription:
+        "This is the entry point of a Java program.",
+      options: ["To define standard input/output functions", "To start the execution of the program", "To define a class", "To declare mathematical functions"],
+      answer: [1],
+      explanation:
+        "'public static void main(String[] args)' is the entry point of a Java program, where execution begins.",
+    },
+    {
+      question:
+        "What is an interface in Java?",
+      questionDescription:
+        "Interfaces define a contract for classes to implement.",
+      options: ["A class that cannot be instantiated", "A collection of related classes", "A contract for classes to implement", "A data structure"],
+      answer: [2],
+      explanation:
+        "An interface in Java defines a contract for classes to implement, specifying a set of methods that must be defined by implementing classes.",
+    },
+    {
+      question:
+        "What is the purpose of 'extends' keyword in Java?",
+      questionDescription:
+        "This keyword is used for inheritance in Java.",
+      options: ["To implement an interface", "To declare a method", "To define a class", "To extend the functionality of a class"],
+      answer: [3],
+      explanation:
+        "In Java, the 'extends' keyword is used to inherit properties and behavior from another class.",
+    },
+    {
+      question:
+        "Which of the following is not a valid access modifier in Java?",
+      questionDescription:
+        "Access modifiers control the visibility of classes, methods, and variables.",
+      options: ["private", "public", "protected", "global"],
+      answer: [3],
+      explanation:
+        "'global' is not a valid access modifier in Java. Valid access modifiers include private, public, and protected.",
+    }
+  ]
+
+  export const cSharpQuestions= [
+    {
+      question:
+        "What is Java?",
+      questionDescription:
+        "Java is a high-level programming language.",
+      options: ["A markup language", "A scripting language", "A programming language", "A database management system"],
+      answer: [2],
+      explanation:
+        "Java is a programming language known for its platform independence and object-oriented approach.",
+    },
+    {
+      question:
+        "What is the purpose of 'public static void main(String[] args)' in Java?",
+      questionDescription:
+        "This is the entry point of a Java program.",
+      options: ["To define standard input/output functions", "To start the execution of the program", "To define a class", "To declare mathematical functions"],
+      answer: [1],
+      explanation:
+        "'public static void main(String[] args)' is the entry point of a Java program, where execution begins.",
+    },
+    {
+      question:
+        "What is an interface in Java?",
+      questionDescription:
+        "Interfaces define a contract for classes to implement.",
+      options: ["A class that cannot be instantiated", "A collection of related classes", "A contract for classes to implement", "A data structure"],
+      answer: [2],
+      explanation:
+        "An interface in Java defines a contract for classes to implement, specifying a set of methods that must be defined by implementing classes.",
+    },
+    {
+      question:
+        "What is the purpose of 'extends' keyword in Java?",
+      questionDescription:
+        "This keyword is used for inheritance in Java.",
+      options: ["To implement an interface", "To declare a method", "To define a class", "To extend the functionality of a class"],
+      answer: [3],
+      explanation:
+        "In Java, the 'extends' keyword is used to inherit properties and behavior from another class.",
+    },
+    {
+      question:
+        "Which of the following is not a valid access modifier in Java?",
+      questionDescription:
+        "Access modifiers control the visibility of classes, methods, and variables.",
+      options: ["private", "public", "protected", "global"],
+      answer: [3],
+      explanation:
+        "'global' is not a valid access modifier in Java. Valid access modifiers include private, public, and protected.",
+    }
+  ]
+
+
+  export const sqlQuestions= [
+    {
+      question:
+        "What is Java?",
+      questionDescription:
+        "Java is a high-level programming language.",
+      options: ["A markup language", "A scripting language", "A programming language", "A database management system"],
+      answer: [2],
+      explanation:
+        "Java is a programming language known for its platform independence and object-oriented approach.",
+    },
+    {
+      question:
+        "What is the purpose of 'public static void main(String[] args)' in Java?",
+      questionDescription:
+        "This is the entry point of a Java program.",
+      options: ["To define standard input/output functions", "To start the execution of the program", "To define a class", "To declare mathematical functions"],
+      answer: [1],
+      explanation:
+        "'public static void main(String[] args)' is the entry point of a Java program, where execution begins.",
+    },
+    {
+      question:
+        "What is an interface in Java?",
+      questionDescription:
+        "Interfaces define a contract for classes to implement.",
+      options: ["A class that cannot be instantiated", "A collection of related classes", "A contract for classes to implement", "A data structure"],
+      answer: [2],
+      explanation:
+        "An interface in Java defines a contract for classes to implement, specifying a set of methods that must be defined by implementing classes.",
+    },
+    {
+      question:
+        "What is the purpose of 'extends' keyword in Java?",
+      questionDescription:
+        "This keyword is used for inheritance in Java.",
+      options: ["To implement an interface", "To declare a method", "To define a class", "To extend the functionality of a class"],
+      answer: [3],
+      explanation:
+        "In Java, the 'extends' keyword is used to inherit properties and behavior from another class.",
+    },
+    {
+      question:
+        "Which of the following is not a valid access modifier in Java?",
+      questionDescription:
+        "Access modifiers control the visibility of classes, methods, and variables.",
+      options: ["private", "public", "protected", "global"],
+      answer: [3],
+      explanation:
+        "'global' is not a valid access modifier in Java. Valid access modifiers include private, public, and protected.",
+    }
+  ]
+
+
+
+  export const apiQuestions= [
+    {
+      question:
+        "What is Java?",
+      questionDescription:
+        "Java is a high-level programming language.",
+      options: ["A markup language", "A scripting language", "A programming language", "A database management system"],
+      answer: [2],
+      explanation:
+        "Java is a programming language known for its platform independence and object-oriented approach.",
+    },
+    {
+      question:
+        "What is the purpose of 'public static void main(String[] args)' in Java?",
+      questionDescription:
+        "This is the entry point of a Java program.",
+      options: ["To define standard input/output functions", "To start the execution of the program", "To define a class", "To declare mathematical functions"],
+      answer: [1],
+      explanation:
+        "'public static void main(String[] args)' is the entry point of a Java program, where execution begins.",
+    },
+    {
+      question:
+        "What is an interface in Java?",
+      questionDescription:
+        "Interfaces define a contract for classes to implement.",
+      options: ["A class that cannot be instantiated", "A collection of related classes", "A contract for classes to implement", "A data structure"],
+      answer: [2],
+      explanation:
+        "An interface in Java defines a contract for classes to implement, specifying a set of methods that must be defined by implementing classes.",
+    },
+    {
+      question:
+        "What is the purpose of 'extends' keyword in Java?",
+      questionDescription:
+        "This keyword is used for inheritance in Java.",
+      options: ["To implement an interface", "To declare a method", "To define a class", "To extend the functionality of a class"],
+      answer: [3],
+      explanation:
+        "In Java, the 'extends' keyword is used to inherit properties and behavior from another class.",
+    },
+    {
+      question:
+        "Which of the following is not a valid access modifier in Java?",
+      questionDescription:
+        "Access modifiers control the visibility of classes, methods, and variables.",
+      options: ["private", "public", "protected", "global"],
+      answer: [3],
+      explanation:
+        "'global' is not a valid access modifier in Java. Valid access modifiers include private, public, and protected.",
+    }
+  ]
