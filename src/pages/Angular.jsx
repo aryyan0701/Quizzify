@@ -1,5 +1,4 @@
 import React from 'react';
-import ShowangulartQue from '../components/AngularQue';
 import { angularQuestions } from '..//data/Ques';
 import { Link } from 'react-router-dom';
 import useQuiz from '../hooks/useQuiz';
@@ -27,7 +26,14 @@ const Angular = () => {
     setCurrentQuestionIndex((idx) => idx + 1);
   }
 
-  console.log(questionAttemptVerdictArray);
+  function resetQuiz() {
+    setCurrentQuestionIndex(0);
+    setQuestionAttemptVerdictArray([]);
+    setCorrectAnswers(0);
+  }
+
+  const currentQuestion = angularQuestions[currentQuestionIndex];
+  const { question, options } = currentQuestion || {};
 
   return (
     <div className="container"> 
@@ -48,10 +54,22 @@ const Angular = () => {
                     <p className="text-2xl font-bold">
                         Question: {currentQuestionIndex + 1}
                     </p>
-                    <ShowangulartQue
-                        {...angularQuestions[currentQuestionIndex]}
-                        answerQuestion={answerQuestion}
-                    />
+                    <div className="flex flex-col items-center justify-center h-screen">
+                <div className="max-w-lg p-6 bg-violet-200 rounded-lg shadow-lg">
+                  <p className="text-xl font-bold mb-4">{question}</p>
+                  <ul>
+                    {options.map((option, index) => (
+                      <li
+                        key={index}
+                        className="cursor-pointer bg-white rounded-lg shadow-md p-2 mb-2 hover:bg-gray-300"
+                        onClick={() => answerQuestion(index)}
+                      >
+                        {option}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
                 </div>
             </>
         ) : (
@@ -61,7 +79,7 @@ const Angular = () => {
                     <span>{correctAnswers}</span> / {angularQuestions.length}
                 </p>
                         <Link to="/topics">
-                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded mt-8">
+                         <button onClick={resetQuiz} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded mt-8">
                          Reset
                         </button>
                          </Link>
