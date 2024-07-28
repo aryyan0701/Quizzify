@@ -1,12 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ShowcplusQue from '../components/ReactQue';
 import { cppQuestions } from '..//data/Ques';
 import { Link } from 'react-router-dom';
+import useQuiz from '../hooks/useQuiz';
 
 function Cplus() {
-     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [questionAttemptVerdictArray, setQuestionAttemptVerdictArray] = useState([]);
-  const [correctAnswers, setCorrectAnswers] = useState(0);
+    const {
+        currentQuestionIndex,
+        setCurrentQuestionIndex,
+        questionAttemptVerdictArray,
+        setQuestionAttemptVerdictArray,
+        correctAnswers,
+        setCorrectAnswers,
+      }= useQuiz();
 
   function answerQuestion(index) {
     const isCorrect = cppQuestions[currentQuestionIndex]?.answer.includes(index);

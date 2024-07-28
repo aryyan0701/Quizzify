@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
-import ShowcQue from '../components/ReactQue';
+import React from 'react';
+import ShowcQue from '../components/CQues';
 import { cQuestions } from '..//data/Ques';
 import { Link } from 'react-router-dom';
+import useQuiz from '../hooks/useQuiz';
 
 function C() {
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [questionAttemptVerdictArray, setQuestionAttemptVerdictArray] = useState([]);
-  const [correctAnswers, setCorrectAnswers] = useState(0);
+
+  const {
+    currentQuestionIndex,
+    setCurrentQuestionIndex,
+    questionAttemptVerdictArray,
+    setQuestionAttemptVerdictArray,
+    correctAnswers,
+    setCorrectAnswers,
+  }= useQuiz();
 
   function answerQuestion(index) {
     const isCorrect = cQuestions[currentQuestionIndex]?.answer.includes(index);
@@ -20,7 +27,7 @@ function C() {
     setCurrentQuestionIndex((idx) => idx + 1);
   }
 
-  console.log(questionAttemptVerdictArray);
+ 
 
   return (
     <div className="container"> 
