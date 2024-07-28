@@ -1,5 +1,5 @@
 import React from 'react';
-import ShowcsharpeQue from '../components/ReactQue';
+import ShowcsharpeQue from '../components/CsharpeQue';
 import { cSharpQuestions } from '..//data/Ques';
 import { Link } from 'react-router-dom';
 import useQuiz from '../hooks/useQuiz';

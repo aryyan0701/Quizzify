@@ -1,5 +1,5 @@
 import React from 'react';
-import ShowcplusQue from '../components/ReactQue';
+import ShowcplusQue from '../components/CplusQue';
 import { cppQuestions } from '..//data/Ques';
 import { Link } from 'react-router-dom';
 import useQuiz from '../hooks/useQuiz';

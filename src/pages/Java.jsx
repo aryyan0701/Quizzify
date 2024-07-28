@@ -1,5 +1,5 @@
 import React from 'react';
-import ShowjavaQue from '../components/ReactQue';
+import ShowjavaQue from '../components/JavaQue';
 import { javaQuestions } from '..//data/Ques';
 import { Link } from 'react-router-dom';
 import useQuiz from '../hooks/useQuiz';

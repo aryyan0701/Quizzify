@@ -1,5 +1,5 @@
 import React from 'react';
-import ShowangulartQue from '../components/ReactQue';
+import ShowangulartQue from '../components/AngularQue';
 import { angularQuestions } from '..//data/Ques';
 import { Link } from 'react-router-dom';
 import useQuiz from '../hooks/useQuiz';

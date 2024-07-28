@@ -1,5 +1,5 @@
 import React from 'react';
-import ShowapiQue from '../components/ReactQue';
+import ShowapiQue from '../components/ApiQue';
 import { apiQuestions } from '..//data/Ques';
 import { Link } from 'react-router-dom';
 import useQuiz from '../hooks/useQuiz';
