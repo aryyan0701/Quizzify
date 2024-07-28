@@ -1,13 +1,19 @@
-import React, { useState } from 'react';
-import ShowSqlQue from '../components/ReactQue';
+import React from 'react';
+import ShowSqlQue from '../components/SqlQue';
 import { sqlQuestions } from '..//data/Ques';
 import { Link } from 'react-router-dom';
+import useQuiz from '../hooks/useQuiz';
 
 
 const Sql = () => {
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [questionAttemptVerdictArray, setQuestionAttemptVerdictArray] = useState([]);
-  const [correctAnswers, setCorrectAnswers] = useState(0);
+    const {
+        currentQuestionIndex,
+        setCurrentQuestionIndex,
+        questionAttemptVerdictArray,
+        setQuestionAttemptVerdictArray,
+        correctAnswers,
+        setCorrectAnswers,
+      }= useQuiz();
 
   function answerQuestion(index) {
     const isCorrect = sqlQuestions[currentQuestionIndex]?.answer.includes(index);

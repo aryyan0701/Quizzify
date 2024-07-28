@@ -1,13 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ShowreactQue from '../components/ReactQue';
 import { reactQuestions } from '..//data/Ques';
 import { Link } from 'react-router-dom';
+import useQuiz from '../hooks/useQuiz';
 
 
 const ReactJs = () => {
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [questionAttemptVerdictArray, setQuestionAttemptVerdictArray] = useState([]);
-  const [correctAnswers, setCorrectAnswers] = useState(0);
+    const {
+        currentQuestionIndex,
+        setCurrentQuestionIndex,
+        questionAttemptVerdictArray,
+        setQuestionAttemptVerdictArray,
+        correctAnswers,
+        setCorrectAnswers,
+      }= useQuiz();
 
   function answerQuestion(index) {
     const isCorrect = reactQuestions[currentQuestionIndex]?.answer.includes(index);
